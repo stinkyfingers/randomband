@@ -12,7 +12,7 @@ phases:
   post_build:
     commands:
       - aws s3 sync build s3://randomband.john-shenk.com
-      - aws cloudfront create-invalidation --paths /index.html --distribution-id 
+      - aws cloudfront create-invalidation --paths /index.html --distribution-id E2XD2HT01VW0
 artifacts:
   files:
     - 'build/*'
