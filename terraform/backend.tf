@@ -3,6 +3,6 @@ terraform {
       bucket = "remotebackend"
       key    = "randomband/terraform.tfstate"
       region = "us-west-1"
-      profile = "jds"
+      profile = "default"
     }
   }
