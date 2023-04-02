@@ -1,3 +1,20 @@
 .pageHeader {
   text-align: center;
 }
+body {
+  color: #eee;
+  background-color: #181825;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+div.logo {
+  width: 70%;
+}
+img.logo {
+  max-width: 100%;
+}
+table.tracks {
+  width: 30%;
+}
