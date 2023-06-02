@@ -18,3 +18,41 @@ img.logo {
 table.tracks {
   width: 30%;
 }
+.nav {
+  border-bottom: solid 1px white;
+}
+li {
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  line-height: 6cm;
+  
+}
+.DrinkTitle {
+  font-size: 50px;
+  color: #F7D62C;
+}
+.Flavs {
+  font-size: 30px;
+}
+.NF, .SC, .GE, .GT, .BS, .LB {
+  color: #EB48A4;
+  background-color: #BFF776;
+  list-style: none;
+  font-size: 25px;
+}
+.MB,.FNC, .JT, .CM, .DF, .SB {
+  background-color: #FAA83C;
+  list-style-type: none;
+  color:#EB48A4;
+  font-size: 25px;
+}
+.TS, .BD, .RS, .MC, .RB, .YOM {
+  color: #EB48A4;
+  background-color: #F7D62C;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.soda {
+  background-color: #b32575;
+}

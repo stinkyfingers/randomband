@@ -6,7 +6,12 @@
     <link rel='icon' type='image/png' href='icons/favicon.ico'/>
   </head>
   <body>
-    <div class="main">
+    <div class="nav">
+      <button onclick="navigation('band')">Band</button>
+      <button onclick="navigation('soda')">Drink Company</button>
+    </div>
+
+    <div class="main" id="band">
       <table class='tracks'>
         <thead>
           <tr>
@@ -33,7 +38,7 @@
               <audio controls>
                 <source src="./audio/haunted_mansion.mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
-              </audio>
+              </aud
             </td>
           </tr>
           <tr>
@@ -185,5 +190,84 @@
         <img class="logo" src="./images/rb_logo.png" alt="Random Band"/>
       </div>
     </div>
+
+    <div id="soda" class="soda">
+
+      <div class="DrinkTitle"> Random Band Drink co.
+        <p class="Flavs">FLAVORS- ordered by rarity</p>
+        <ol> 
+          <li class="NF">
+            1. Nuclear Fart-- An absolute EXPLOSION of Zesty, Tangy, and Sour flavor.
+          </li>
+          <li class="MB">
+            2. Mammoth Breath-- Strong, piquant, and beefy. Literally. We made it with beef.
+          </li>
+          <li class="TS">
+            3. Thick Saliva-- This splash of pungent and smooth, or chunky, drink will make your day... worse.
+          </li>
+          <li class="SC">
+            4. Stinky Cheese-- A combo of Limburger, Tallegio, and Époisses. It's REALLY smelly.
+          </li>
+          <li class="FNC">
+            5. Fresh Nail clippings-- WARNING: Chunks could prove hazardous. Sorry, *Will* prove hazardous.
+          </li>
+          <li class="BD">
+            6. Big Dump-- This dookie is worse than your Dad's on an above averaage morning.
+          </li>
+          <li class="GE">
+            7. Green Earwax-- Just one sip will have your ears turning greener than your grandma's lawn.
+          </li>
+          <li class="JT">
+            8. Juicy Thigh-- These thighs are so broad and almond-y, you'll be scared.
+          </li>
+          <li class="RS">
+            9. Runny Snot-- This drink was MADE to be flowing, aqueous, and snottier than a baby's boogers.
+          </li>
+          <li class="GT">
+            10. Greasy Toes-- These toes are almost as wet and fluent as Juicy Thigh and Runny Snot.
+          </li>
+          <li class="CM">
+            11. Chunky Milk
+          </li>
+          <li class="MC">
+            12. Moldy Carpet
+          </li>
+          <li class="BS">
+            13. Booty Stench
+          </li>
+          <li class="DF">
+            14. Dog food
+          </li>
+          <li class="RB">
+            15. Rusty Bullet
+          </li>
+          <li class="LB">
+            16. Leaky Battery
+          </li>
+          <li class="SB">
+            17. Stale Bread
+          </li>
+          <li class="YOM">
+           18.  85 year Old Man
+          </li>
+        </ol>
+      </div>
+
+    </div>
+
   </body>
+  <script>
+    // initialize soda page hidden
+    var soda = document.getElementById('soda');
+    soda.style.display = "none";
+    // navigation responds to button clicks to hide different sections
+    function navigation(section) {
+      var show = document.getElementById(section);
+      var band = document.getElementById('band');
+      var soda = document.getElementById('soda');
+      band.style.display = "none";
+      soda.style.display = "none";
+      show.style.display = "block";
+    }
+  </script>
 </html>
