@@ -25,7 +25,7 @@ li {
   font-size: 20px;
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
   line-height: 6cm;
-  
+
 }
 .DrinkTitle {
   font-size: 50px;
@@ -55,4 +55,8 @@ li {
 
 .soda {
   background-color: #b32575;
+}
+.BW{
+  color: #ffdd33;
+  font-size: 25px
 }
